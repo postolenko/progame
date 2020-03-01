@@ -24,11 +24,6 @@
 				<div class="left_col">
 					<div class="logo_wrapp">
 						<div class="col">
-							<div class="logo_img_wrapp">
-								<img class="logo" src="img/logo.png" alt="Pro Game" />
-							</div>
-						</div>
-						<div class="col">
 							<img class="logo_text" src="img/logo_text.png" alt="" />
 						</div>
 						<div class="col">
@@ -40,9 +35,24 @@
 					<div class="contacts_wrapp">
 						<div class="col">
 							<ul class="contacts">
-								<li><a href="tel:"><img src="img/tel.svg" alt="tel" /></a></li>
-								<li><a href="#"><img src="img/whatsupp.svg" alt="whatsupp" /></a></a></li>
-								<li><a href="#"><img src="img/wiber.svg" alt="wiber" /></a></a></li>
+								<li>
+									<a href="tel:">
+										<img class="visible" src="img/tel.svg" alt="tel" />
+										<img class="hover" src="img/tel_green.svg" alt="tel" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img class="visible" src="img/whatsupp.svg" alt="whatsupp" />
+										<img class="hover" src="img/whatsupp_green.svg" alt="whatsupp" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img class="visible" src="img/wiber.svg" alt="wiber" />
+										<img class="hover" src="img/wiber_green.svg" alt="wiber" />
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div class="col">
@@ -52,17 +62,22 @@
 							</div>
 						</div>
 						<div class="col">
-							<a href="#" class="callback_btn"></a>
+							<div class="callback_btn_wrapp">
+								<a href="#" class="callback_btn">
+									<i class="call"></i>
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
+					<img src="img/star_01.svg" alt="" />
+				</div>				
 			</div>
-			<div class="row">
+			<div class="row main_nav_sect">
 				<div class="main_nav_wrapp" id="resp_nav">
 					<ul class="main_nav">			
 						<li><a href="#">О нас</a></li>
 						<li><a href="#">Цены и бронирование</a></li>
-						<li><a href="#">Важно</a></li>
+						<li><a href="#" class="active">Важно</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Контакты</a></li>
 					</ul>
@@ -72,6 +87,11 @@
 					<span></span>
 					<span></span>
 				</button>
+			</div>
+			<div class="logo_row row">
+				<div class="logo_img_wrapp">
+					<img class="logo" src="img/logo.png" alt="Pro Game" />
+				</div>
 			</div>
 		</div>
 	</header>
@@ -84,19 +104,35 @@
 			<!-- Section 1 - Main Page -->
 
 			<section>
-				<div class="row">
-					<div class="promo_box">
-						<div class="left_col">
-							<h1>Летняя программа ProGame в Ленобласти для детей 7-15 лет</h1>
-							<div class="promo_descript">
-								<p>Свежий воздух, комфортные условия проживания, курс компьютерного программирования, развлекательная программа - всё это позволит вашим детям активно отдохнуть и получить новые знания</p>
-								<a href="#" class="yellow_pill">УЗнать подробнее</a>
+				<div class="clouds_sect">
+					<div class="row">
+						<div class="promo_box">
+							<div class="left_col">
+								<h1>Летняя программа ProGame в Ленобласти для детей 7-15 лет</h1>
+								<div class="promo_descript">
+									<p>Свежий воздух, комфортные условия проживания, курс компьютерного программирования, развлекательная программа - всё это позволит вашим детям активно отдохнуть и получить новые знания</p>
+									<a href="#" class="yellow_pill">УЗнать подробнее</a>
+								</div>
+							</div>
+							<div class="right_col">
+								<div class="promo_img_wrapp">
+									<img class="star star_bg_03" src="img/bg_star_03.svg" alt="" />
+									<img class="star star_bg_02" src="img/bg_star_02.svg" alt="" />
+									<img class="star star_bg_01" src="img/bg_star.svg" alt="" />
+									<img class="chid child_01" src="img/child_01.png" alt="" />
+									<img class="chid child_02" src="img/child_02.png" alt="" />
+									<img class="chid child_03" src="img/child_03.png" alt="" />
+								</div>
 							</div>
 						</div>
-						<div class="right_col">
-							
-						</div>
 					</div>
+					<div class="bottom_bg">
+						<img class="cloud cloud_01" src="img/cloud_01.png" alt="" />
+						<img class="cloud cloud_02" src="img/cloud_02.png" alt="" />
+						<img class="cloud cloud_03" src="img/cloud_03.png" alt="" />
+					</div>
+				</div>
+				<div class="row">					
 					<h2>Программа летних смен 2020</h2>
 					<div class="times_thumbs">
 						<div class="time_thumb">
@@ -273,11 +309,24 @@
 						</div>
 					</div>
 					<div class="gallery">
-						<div class="slide">
-							<div class="img_box">
-								<img src="img/" alt="" />
-							</div>
+						<!-- <div class="slide">
+							<a href="#" class="img_box" style="background-image: url(img/slider/1.jpg);"></a>
 						</div>
+						<div class="slide">
+							<a href="#" class="img_box" style="background-image: url(img/slider/2.jpg);"></a>
+						</div>
+						<div class="slide">
+							<a href="#" class="img_box" style="background-image: url(img/slider/3.jpg);"></a>
+						</div>
+						<div class="slide">
+							<a href="#" class="img_box" style="background-image: url(img/slider/4.jpg);"></a>
+						</div>
+						<div class="slide">
+							<a href="#" class="img_box" style="background-image: url(img/slider/5.jpg);"></a>
+						</div>
+						<div class="slide">
+							<a href="#" class="img_box" style="background-image: url(img/slider/6.jpg);"></a>
+						</div> -->
 					</div>
 					<div class="schedule">
 						<div class="schedule_thumb">
@@ -296,40 +345,49 @@
 					<div class="button_wrapp">
 						<a href="#" class="yellow_pill">Оставить заявку</a>
 					</div>
+
 					<div class="prices_sect">
-						<div class="left_col">
-							<div class="price_item">
-								<p>С учетом компенсации: <b>35 950 руб.</b></p>
-							</div>
-							<div class="price_item">
-								<p>Без компенсации: <b>53 630 руб.</b></p>
-							</div>
-							<div class="button_wrapp">
-								<p>Возможно предоставление рассрочки</p>
-								<a href="#" class="yellow_pill">Заказать путевку</a>
-							</div>
+						<div class="sect_box_title">
+							<h2>Стоимость путевки<br /> в летний лагерь 2020 г.</h2>
 						</div>
-						<div class="right_col">
-							<div class="discounts_wrapp">
-								<h3>Скидки (1 000 руб.)</h3>
-								<div class="discounts_thumbnails">
-									<div class="discount">
-										<p>Тем, кто обучается в школе ProGame в городе</p>
+						<div class="prices_article">
+							<div class="left_col">
+								<div>
+									<div class="price_item">
+										<p>С учетом компенсации: <b>35 950 руб.</b></p>
 									</div>
-									<div class="discount">
-										<p>Скидки суммируются</p>
+									<div class="price_item">
+										<p>Без компенсации: <b>53 630 руб.</b></p>
 									</div>
-									<div class="discount">
-										<p>Для тех кто пригласит своих друзей</p>
+								</div>
+								<div class="price_button_wrapp">
+									<p>Возможно предоставление рассрочки</p>
+									<a href="#" class="yellow_pill">Заказать путевку</a>
+								</div>
+							</div>
+							<div class="right_col">
+								<div class="discounts_wrapp">
+									<h3>Скидки (1 000 руб.)</h3>
+									<div class="discounts_thumbnails">
+										<div class="discount">
+											<p>Тем, кто обучается в школе ProGame в городе</p>
+										</div>
+										<div class="discount">
+											<p>Скидки суммируются</p>
+										</div>
+										<div class="discount">
+											<p>Для тех кто пригласит своих друзей</p>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
 					<div class="info_sect">
-						<div class="h2_wrapp">
+						<div class="sect_box_title">
 							<h2>Полезная информация</h2>
-							<p>Государственная компенсация</p>
+							<h3>Государственная компенсация</h3>
 						</div>
 						<div class="article_3">
 							<div class="left_col">
@@ -380,27 +438,28 @@
 						</div>
 					</div>
 					<div class="memory_sect">
-						<h3>Памятка для сбора ребенка в лагерь</h3>
+						<div class="sect_box_title">
+							<h3>Памятка для сбора ребенка в лагерь</h3>
+						</div>
 						<div class="info_box">
 							<div class="inner_row">
-								<h3>Документы, для поездки в детский лагерь (предоставить на медосмотр)</h3>
+								<h3 class="upper">Документы, для поездки в детский лагерь (предоставить на медосмотр)</h3>
 							</div>
-							<div class="inner_row">
-								<div class="three_cols">
-									<ul class="items_list">
-										<li>Копия свидетельства о рождении ребенка или паспорта</li>
-										<li>Копия страхового медицинского полиса (обе стороны).</li>
-										<li>Медицинская справка для лагеря (по форме № 079/у), с указанием группы здоровья, проставленных прививок (Ф - 63), перенесенных заболеваний, отметкой об отсутствии карантина в школе и классе (справку можно получить в медкабинете в школе, во время каникул в поликлинике).</li>
-										<li>Справка об отсутствии инфекционных заболеваний в классе, школе (если не вписаны в форму №79/у)</li>
-										<li>Прививочная форма 063 (RV кори, свежая реакция манту (действ 1 год), АДСМ, гепатит Б), (если в справке 079у не указаны прививки).</li>
-										<li>Справка об эпид. окружении (об отсутствии инфекционных заболеваний в семье, квартире) по месту проживания (срок действия справки 3 суток, справку выдают в районной поликлинике).</li>
-										<li>Результаты анализов на энтеробиоз (срок действия 14 дней).</li>
-										<li>Результаты анализов на яйца-глист и простейшие (срок действия 14 дней).</li>
-									</ul>
-								</div>
+							<div class="inner_row align_left">
+								<ul class="items_list three_cols">
+									<li>Копия свидетельства о рождении ребенка или паспорта</li>
+									<li>Копия страхового медицинского полиса (обе стороны).</li>
+									<li>Медицинская справка для лагеря (по форме № 079/у), с указанием группы здоровья, проставленных прививок (Ф - 63), перенесенных заболеваний, отметкой об отсутствии карантина в школе и классе (справку можно получить в медкабинете в школе, во время каникул в поликлинике).</li>
+									<li>Справка об отсутствии инфекционных заболеваний в классе, школе (если не вписаны в форму №79/у)</li>
+									<li>Прививочная форма 063 (RV кори, свежая реакция манту (действ 1 год), АДСМ, гепатит Б), (если в справке 079у не указаны прививки).</li>
+									<li>Справка об эпид. окружении (об отсутствии инфекционных заболеваний в семье, квартире) по месту проживания (срок действия справки 3 суток, справку выдают в районной поликлинике).</li>
+									<li>Результаты анализов на энтеробиоз (срок действия 14 дней).</li>
+									<li>Результаты анализов на яйца-глист и простейшие (срок действия 14 дней).</li>
+								</ul>
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</section>
 
