@@ -1758,6 +1758,10 @@ textarea:focus {
     background-repeat: no-repeat;
 }*/
 
+.schedule_wrapp {
+    position: relative;
+}
+
 .schedule {
     display: flex;
     display: -webkit-flex;
@@ -1769,12 +1773,49 @@ textarea:focus {
     --flex-wrap: wrap;
     justify-content: space-between;
     -webkit-justify-content: space-between;
+    position: relative;
+}
+
+.schedule_wrapp .sc_line {
+    position: absolute;
+}
+
+.schedule_wrapp .sc_line_1 {
+    top: -165px;
+    left: -311px;
+}
+
+.schedule_wrapp .sc_line_2 {
+    top: 23px;
+    left: 178px;
+}
+
+.schedule_wrapp .sc_line_3 {
+    top: 63px;
+    right: -237px;
+}
+
+.schedule_wrapp .sc_line_4 {
+    top: 262px;
+    left: 44px;
+}
+
+.schedule_wrapp .sc_line_5 {
+    top: 322px;
+    left: -140px;
+}
+
+.schedule_wrapp .sc_line_6 {
+    top: 495px;
+    left: 112px;
+}
+
+.schedule_wrapp .sc_line_7 {
+    top: 581px;
+    right: -177px;
 }
 
 .schedule_thumb {
-/*    display: inline-block;
-    vertical-align: top;*/
-    /*max-width: 160px;*/
     width: 210px;
     margin: 6.5px 0;
     text-align: center;
@@ -1830,22 +1871,22 @@ textarea:focus {
     text-transform: uppercase;
 }
 
-.schedule_thumb:last-child {
+.schedule_thumb.last {
     display: inline-flex;
     display: -webkit-inline-flex;
     position: relative;
 }
 
-.schedule_thumb:last-child .time_circle {
+.schedule_thumb.last .time_circle {
     position: relative;
     z-index: 3;
 }
 
-.schedule_thumb:last-child .time_circle:before {
+.schedule_thumb.last .time_circle:before {
     display: none;
 }
 
-.schedule_thumb:last-child:before {
+.schedule_thumb.last:before {
     display: block;
     content: "";
     width: 223px;
@@ -1860,7 +1901,7 @@ textarea:focus {
     z-index: 2;
 }
 
-.schedule_thumb:last-child:after {
+.schedule_thumb.last:after {
     display: block;
     content: "";
     width: 194px;
@@ -1875,15 +1916,15 @@ textarea:focus {
     z-index: 1;
 }
 
-.schedule_thumb:last-child .time_circle {
+.schedule_thumb.last .time_circle {
     background-color: transparent;
     box-shadow: none;
 }
 
-.schedule_thumb:last-child .desc {
+.schedule_thumb.last .desc {
     position: relative;
     top: 66px;
-    left: 99px;
+    left: 59px;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -1900,6 +1941,23 @@ textarea:focus {
     line-height: 24px;
     font-weight: 300;
     color: #435869;
+}
+
+.schedule_button_wrapp {
+    height: 190px;
+    padding: 58px 0;
+    position: relative;
+    text-align: center;
+}
+
+.schedule_button_wrapp .yellow_pill {
+    
+}
+
+.schedule_button_wrapp .schedule_thumb {
+    position: absolute;
+    top: 0;
+    right: 13%;
 }
 
 .prices_article {
