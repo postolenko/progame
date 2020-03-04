@@ -1822,8 +1822,29 @@ textarea:focus {
     position: relative;
 }
 
+.schedule .schedule_thumb:after {
+    display: block;
+    content: "";
+    width: 33px;
+    height: 33px;
+    background-image: url(img/star.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    transform: rotate(35deg)
+}
+
 .schedule_thumb:nth-child(even) {
     top: 39px;
+}
+
+.schedule .schedule_thumb:nth-child(odd):after {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    transform: rotate(-7deg);
 }
 
 .time_circle {
@@ -1941,6 +1962,93 @@ textarea:focus {
     line-height: 24px;
     font-weight: 300;
     color: #435869;
+}
+
+.schedule .schedule_thumb:nth-child(1):after {
+    top: 20px;
+    right: -46px;
+}
+
+.schedule .schedule_thumb:nth-child(2):after {
+    top: 59px;
+    right: -23px;
+}
+
+.schedule .schedule_thumb:nth-child(3):after {
+    top: 114px;
+    right: -15px;
+}
+
+.schedule .schedule_thumb:nth-child(4):after {
+    top: 16px;
+    right: -18px;
+}
+
+.schedule .schedule_thumb:nth-child(5):after {
+    top: 132px;
+    right: -19px;
+}
+
+.schedule .schedule_thumb:nth-child(6):after {
+    display: none;
+}
+
+.schedule .schedule_thumb:nth-child(7):after {
+    display: none;
+}
+
+.schedule .schedule_thumb:nth-child(8):after {
+    top: -27px;
+    left: -24px;
+}
+
+.schedule .schedule_thumb:nth-child(9):after {
+    top: 150px;
+    left: -16px;
+}
+
+.schedule .schedule_thumb:nth-child(10):after {
+    top: -32px;
+    left: -9px;
+}
+
+.schedule .schedule_thumb:nth-child(11):after {
+    top: 155px;
+    left: -20px;
+}
+
+.schedule .schedule_thumb:nth-child(12):after {
+    top: 2px;
+    left: -16px;
+}
+
+.schedule .schedule_thumb:nth-child(13):after {
+    top: 11px;
+    right: -25px;
+}
+
+.schedule .schedule_thumb:nth-child(14):after {
+    top: 28px;
+    right: -19px;
+}
+
+.schedule .schedule_thumb:nth-child(15):after {
+    top: 104px;
+    right: -14px;
+}
+
+.schedule .schedule_thumb:nth-child(16):after {
+    top: -43px;
+    right: -5px;
+}
+
+.schedule .schedule_thumb:nth-child(17):after {
+    top: 113px;
+    right: -9px;
+}
+
+.schedule .schedule_thumb:nth-child(18):after {
+    display: none;
 }
 
 .schedule_button_wrapp {
