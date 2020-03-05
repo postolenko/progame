@@ -1,0 +1,21 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="685px" height="857px">
+<defs>
+<filter id="Filter_0">
+    <feOffset in="SourceAlpha" dx="0" dy="3" />
+    <feGaussianBlur result="blurOut" stdDeviation="4.899" />
+    <feFlood flood-color="rgb(53, 67, 87)" result="floodOut" />
+    <feComposite operator="out" in="floodOut" in2="blurOut" result="compOut" />
+    <feComposite operator="in" in="compOut" in2="SourceAlpha" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+    <feBlend mode="normal" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M448.000,18.000 C580.340,21.652 720.590,151.547 633.000,256.001 C545.410,360.452 357.746,394.036 401.000,501.000 C444.254,607.963 677.367,678.283 604.000,782.001 C530.633,885.717 241.797,792.442 81.000,755.000 C-79.797,717.558 154.187,469.472 117.000,363.000 C79.813,256.530 -0.031,5.638 448.000,18.000 Z"/>
+</g>
+</svg>
