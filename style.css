@@ -3973,6 +3973,10 @@ section > .row {
     position: relative;
 }
 
+.info_sect > .row {
+    position: relative;
+}
+
 .float_shape_6 {
     width: 635px;
     height: 822px;
@@ -3982,16 +3986,16 @@ section > .row {
     left: auto;
 }
 
-.float_shape_4_1 {
+.float_shape_6_1 {
     display: block;
     width: auto;
     height: auto;
     position: absolute;
-    top: 26px;
-    left: 62px;
+    top: 53px;
+    left: 47px;
 }
 
-.float_shape_4_2 {
+.float_shape_6_2 {
     display: block;
     width: auto;
     height: auto;
@@ -4000,6 +4004,31 @@ section > .row {
     left: 0;
 }
 
+.float_shape_7 {
+    width: 635px;
+    height: 822px;
+    position: absolute;
+    top: 1161px;
+    left: -222px;
+}
+
+.float_shape_7_1 {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 26px;
+    left: -8px;
+}
+
+.float_shape_7_2 {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .article_3 {
     display: flex;
@@ -4211,6 +4240,42 @@ p .tel {
 
 .upper {
     text-transform: uppercase !important;
+}
+
+.memory_sect {
+
+}
+
+.memory_sect > .row {
+    position: relative;
+}
+
+.float_shape_8 {
+    width: 470px;
+    height: 370px;
+    position: absolute;
+    top: auto;
+    bottom: -68px;
+    left: auto;
+    right: -125px;
+}
+
+.float_shape_8_1 {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 48px;
+    left: 75px;
+}
+
+.float_shape_8_2 {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .three_cols {
