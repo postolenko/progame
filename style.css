@@ -4292,6 +4292,22 @@ p .tel {
     margin: 0 0 26px 0;
 }
 
+.figures_articles_wrapp {
+    /*position: relative;*/
+}
+
+.figures_articles_wrapp > .row {
+    position: relative;
+}
+
+.figures_articles_wrapp .orbit {
+    width: 205px;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    right: -137px;
+}
+
 .figures_articles_sect {
     margin-bottom: 10px;
 }
