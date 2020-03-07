@@ -4293,7 +4293,7 @@ p .tel {
 }
 
 .figures_articles_wrapp {
-    /*position: relative;*/
+    position: relative;
 }
 
 .figures_articles_wrapp > .row {
@@ -4306,6 +4306,95 @@ p .tel {
     position: absolute;
     top: 170px;
     right: -137px;
+}
+
+.figures_articles_wrapp .asteroids {
+    width: 155px;
+    height: auto;
+    position: absolute;
+    top: 31%;
+    left: -37px;
+}
+
+.planet_30 {
+    width: 190px;
+    height: auto;
+    position: absolute;
+    top: 46%;
+    left: auto;
+    right: 61px;
+    -webkit-animation: planet30 10s infinite linear;
+    -moz-animation:    planet30 10s infinite linear;
+    -o-animation:      planet30 10s infinite linear;
+    animation:         planet30 10s infinite linear;
+}
+
+@keyframes planet30 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes planet30 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes planet30 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.float_shape_9 {
+    width: 633px;
+    height: 468px;
+    position: absolute;
+    top: 36%;
+    left: -161px;
+}
+
+.float_shape_9_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.float_shape_9_2 {
+    position: absolute;
+    top: 60px;
+    left: 98px;
+}
+
+.float_shape_10 {
+    width: 560px;
+    height: 605px;
+    position: absolute;
+    top: 21%;
+    left: auto;
+    right: -22px;
+}
+
+.float_shape_10_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.float_shape_10_2 {
+    position: absolute;
+    top: 34px;
+    left: 70px;
 }
 
 .figures_articles_sect {
@@ -4695,6 +4784,158 @@ p .tel {
 .contacts_sect {
     padding: 77px 0 45px 0;
     position: relative;
+}
+
+.planet_31 {
+    width: 312px;
+    height: auto;
+    position: absolute;
+    top: -8px;
+    left: 58px;
+    z-index: 3;
+    -webkit-animation: planet31 10s infinite linear;
+    -moz-animation:    planet31 10s infinite linear;
+    -o-animation:      planet31 10s infinite linear;
+    animation:         planet31 10s infinite linear;
+}
+
+@keyframes planet31 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes planet31 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes planet31 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.planet_32 {
+    width: 164px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    right: 9%;
+    z-index: 3;
+    -webkit-animation: planet32 10s infinite linear;
+    -moz-animation:    planet32 10s infinite linear;
+    -o-animation:      planet32 10s infinite linear;
+    animation:         planet32 10s infinite linear;
+}
+
+@keyframes planet32 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes planet32 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes planet32 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.planet_33 {
+    width: 126px;
+    height: auto;
+    position: absolute;
+    bottom: -14px;
+    left: auto;
+    right: 13%;
+    -webkit-animation: planet33 10s infinite linear;
+    -moz-animation:    planet33 10s infinite linear;
+    -o-animation:      planet33 10s infinite linear;
+    animation:         planet33 10s infinite linear;
+}
+
+@keyframes planet33 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes planet33 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes planet33 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.form_wrapp_sect {
+    position: relative;
+    z-index: 2;
+}
+
+.float_shape_22 {
+    width: 333px;
+    height: 290px;
+    position: absolute;
+    top: 243px;
+    left: 47px;
+}
+
+.float_shape_23 {
+    width: 208px;
+    height: 170px;
+    position: absolute;
+    top: 286px;
+    left: auto;
+    right: 23%;
+}
+
+.float_shape_24 {
+    width: 71px;
+    height: 63px;
+    position: absolute;
+    top: 405px;
+    left: auto;
+    right: 17%;
 }
 
 .section {
