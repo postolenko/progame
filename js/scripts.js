@@ -1,7 +1,5 @@
 $(window).on('load', function() {
-
   $("body").removeClass("fixed");
-
 });
 
 $(document).ready(function() {
