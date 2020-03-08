@@ -164,6 +164,7 @@ $(document).ready(function() {
         $('html, body').stop().animate({
             'scrollTop': visibleBlock.offset().top - 50
         }, 500);
+        $("#resp_nav").fadeOut(300);
     });
 
 
