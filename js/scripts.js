@@ -20,6 +20,17 @@ $(document).ready(function() {
     $("body").addClass("fixed");
 
     if( $(".gallery").length > 0 ) {
+
+      var dataPath;
+
+        $(".gallery").on('init', function() {
+          $(".gallery .slide").each(function() {
+            dataPath = $(this).find("image").attr("data-image-path");
+            console.log(dataPath);
+            $(this).find("image").attr("href", dataPath);
+          });
+        });
+
         $(".gallery").not(".slick-initialized").slick({
             dots: false,
             arrows: true,
