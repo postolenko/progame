@@ -10,7 +10,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title>Pro Game - Летняя программа ProGame в Ленобласти для детей 7-15 лет. Хочешь быть успешным, научись программировать</title>
-<!-- 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 
 <body>
@@ -64,34 +63,54 @@
 						<div class="col">
 							<div class="tel_wrapp">
 								<div><a class="tel_link" href="tel:+78129256725">+7 (812) 925-67-25</a></div>
-								<div><a href="#" class="blue_link">Обратный звонок</a></div>
+								<div><a href="#" class="blue_link" data-toggle="modal" data-target="#enterModal1">Обратный звонок</a></div>
 							</div>
 						</div>
 						<div class="col">
 							<div class="callback_btn_wrapp">
-								<a href="#" class="callback_btn">
+								<a href="tel:+78129256725" class="callback_btn">
 									<i class="call"></i>
 								</a>
 							</div>
 						</div>
 					</div>
-				</div>				
+				</div>
 			</div>
+			<button class="respmenubtn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
 			<div class="row main_nav_sect">
 				<div class="main_nav_wrapp" id="resp_nav">
 					<ul class="main_nav">			
-						<li><a href="#">О нас</a></li>
-						<li><a href="#">Цены и бронирование</a></li>
-						<li><a href="#" class="active">Важно</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#prices">Цены и бронирование</a></li>
+						<li><a href="#important">Важно</a></li>
+						<li><a href="#news">Новости</a></li>
+						<li><a href="#contacts">Контакты</a></li>
 					</ul>
-				</div>
-				<button class="respmenubtn">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
+					<ul class="contacts contacts_resp">
+						<li>
+							<a href="tel:">
+								<img class="visible" src="img/tel.svg" alt="tel" />
+								<img class="hover" src="img/tel_green.svg" alt="tel" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="visible" src="img/whatsupp.svg" alt="whatsupp" />
+								<img class="hover" src="img/whatsupp_green.svg" alt="whatsupp" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="visible" src="img/wiber.svg" alt="wiber" />
+								<img class="hover" src="img/wiber_green.svg" alt="wiber" />
+							</a>
+						</li>
+					</ul>
+				</div>				
 			</div>
 			<div class="logo_row row">
 				<div class="logo_img_wrapp">
@@ -124,7 +143,7 @@
 								<h1>Летняя программа ProGame в Ленобласти для детей 7-15 лет</h1>
 								<div class="promo_descript">
 									<p>Свежий воздух, комфортные условия проживания, курс компьютерного программирования, развлекательная программа - всё это позволит вашим детям активно отдохнуть и получить новые знания</p>
-									<a href="#" class="yellow_pill">УЗнать подробнее</a>
+									<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">УЗнать подробнее</a>
 									<img class="planet_3" src="img/float_images/planet_03.svg" alt="" />
 								</div>
 							</div>
@@ -169,7 +188,7 @@
 										<p>Места есть</p>
 									</div>
 								</div>
-								<a href="#" class="yellow_pill">Забронировать</a>
+								<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">Забронировать</a>
 							</div>
 							<div class="time_thumb">
 								<h3>2 смена</h3>
@@ -181,7 +200,7 @@
 										<p>Места есть</p>
 									</div>
 								</div>
-								<a href="#" class="yellow_pill">Забронировать</a>
+								<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">Забронировать</a>
 							</div>
 							<div class="time_thumb">
 								<h3>3 смена</h3>
@@ -193,7 +212,7 @@
 										<p>Места есть</p>
 									</div>
 								</div>
-								<a href="#" class="yellow_pill">Забронировать</a>
+								<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">Забронировать</a>
 							</div>
 						</div>
 					</div>
@@ -244,7 +263,6 @@
 								</div>
 							</div>
 						</div>
-						<!-- <img class="float_shape_4" src="img/float_images/float_shape_04.svg" alt="" /> -->
 						<img class="float_star_11" src="img/float_images/float_star_01.svg" alt="" />
 						<div class="info_box">
 							<div class="inner_row">
@@ -256,7 +274,6 @@
 						</div>
 					</div>
 				</div>
-
 
 				<div class="program_sect_wrapp_2">
 					<div class="row">
@@ -313,7 +330,7 @@
 								</div>
 							</div>
 							<div class="button_wrapp">
-								<a href="#" class="yellow_pill">Оставить заявку</a>
+								<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">Оставить заявку</a>
 							</div>
 						</div>
 					</div>
@@ -376,7 +393,7 @@
 								 	d="M86.882,847.046 C210.784,847.361 608.028,190.328 608.500,42.500 C608.795,-49.827 388.169,36.835 295.780,68.167 C118.168,128.406 45.473,100.230 23.500,219.244 C0.204,345.429 -33.592,846.739 86.882,847.046 Z"/>
 								</svg>
 							</div>
-							<div class="article_2_title">
+							<div class="article_2_title" id="about">
 								<h2>Наша площадка<br /> ДОЛ «Восход»</h2>
 							</div>
 							<div class="article_2_desc">
@@ -500,12 +517,12 @@
 								 xmlns:xlink="http://www.w3.org/1999/xlink"
 								 width="246px" height="242px">
 									 <defs>
-									 	<clipPath id="cp4">
+									 	<clipPath id="cp42">
 											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
 												d="M242.498,101.860 C262.708,38.031 171.012,-1.392 103.982,0.651 C8.614,3.560 11.867,72.682 2.488,138.959 C-13.179,249.674 74.096,244.723 141.005,240.168 C208.621,235.566 222.521,164.954 242.498,101.860 Z"/>
 										 </clipPath>
 									</defs>
-									<image x="0" y="0" width="100%" height="100%" href="img/slider/4.jpg" clip-path="url(#cp4)" preserveAspectRatio="none"/>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/4.jpg" clip-path="url(#cp42)" preserveAspectRatio="none"/>
 								</svg>
 							</a>
 							<a href="img/slider/5.jpg" class="slide" data-fancybox = "1">
@@ -528,12 +545,12 @@
 								 xmlns:xlink="http://www.w3.org/1999/xlink"
 								 width="217px" height="205px">
 									 <defs>
-									 	<clipPath id="cp2">
+									 	<clipPath id="cp20">
 											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
 	 											d="M69.718,204.213 C11.384,211.548 -8.098,126.049 4.313,68.445 C21.971,-13.511 81.149,0.272 139.876,2.686 C237.979,6.718 219.841,81.354 205.282,138.454 C190.568,196.158 127.379,196.963 69.718,204.213 Z"/>
 										 </clipPath>
 									</defs>
-									<image x="0" y="0" width="100%" height="100%" href="img/slider/6.jpg" clip-path="url(#cp2)" preserveAspectRatio="none"/>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/6.jpg" clip-path="url(#cp20)" preserveAspectRatio="none"/>
 								</svg>
 							</a>
 							<a href="img/slider/7.jpg" class="slide" data-fancybox = "1">
@@ -542,12 +559,12 @@
 								 xmlns:xlink="http://www.w3.org/1999/xlink"
 								 width="246px" height="242px">
 									 <defs>
-									 	<clipPath id="cp3">
+									 	<clipPath id="cp32">
 											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
 	 											d="M3.502,101.860 C-16.709,38.031 74.987,-1.392 142.018,0.651 C237.386,3.560 234.133,72.682 243.512,138.959 C259.179,249.674 171.903,244.723 104.995,240.168 C37.379,235.566 23.479,164.954 3.502,101.860 Z"/>
 										 </clipPath>
 									</defs>
-									<image x="0" y="0" width="100%" height="100%" href="img/slider/7.jpg" clip-path="url(#cp3)" preserveAspectRatio="none"/>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/7.jpg" clip-path="url(#cp32)" preserveAspectRatio="none"/>
 								</svg>
 							</a>
 							<a href="img/slider/8.jpg" class="slide" data-fancybox = "1">
@@ -556,12 +573,12 @@
 								 xmlns:xlink="http://www.w3.org/1999/xlink"
 								 width="271px" height="283px">
 									 <defs>
-									 	<clipPath id="cp">
+									 	<clipPath id="cp9">
 											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
 										 d="M135.000,7.000 C201.340,-25.800 259.911,67.554 269.000,141.000 C281.932,245.495 205.844,253.599 135.000,275.000 C16.656,310.750 7.326,214.735 1.000,141.000 C-5.393,66.484 69.425,39.423 135.000,7.000 Z"/>
 										 </clipPath>
 									</defs>
-									<image x="0" y="0" width="100%" height="100%" href="img/slider/8.jpg" clip-path="url(#cp)" preserveAspectRatio="none"/>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/8.jpg" clip-path="url(#cp9)" preserveAspectRatio="none"/>
 								</svg>
 							</a>
 							<a href="img/slider/9.jpg" class="slide" data-fancybox = "1">
@@ -584,12 +601,250 @@
 								 xmlns:xlink="http://www.w3.org/1999/xlink"
 								 width="246px" height="242px">
 									 <defs>
-									 	<clipPath id="cp5">
+									 	<clipPath id="cp52">
 											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
 	 											d="M147.282,204.213 C205.616,211.548 225.098,126.049 212.687,68.445 C195.029,-13.511 135.851,0.272 77.124,2.686 C-20.979,6.718 -2.841,81.354 11.718,138.454 C26.432,196.158 89.621,196.963 147.282,204.213 Z"/>
 										 </clipPath>
 									</defs>
-									<image x="0" y="0" width="100%" height="100%" href="img/slider/10.jpg" clip-path="url(#cp5)" preserveAspectRatio="none"/>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/10.jpg" clip-path="url(#cp52)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/11.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="217px" height="205px">
+									 <defs>
+									 	<clipPath id="cp51">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M69.718,204.213 C11.384,211.548 -8.098,126.049 4.313,68.445 C21.971,-13.511 81.149,0.272 139.876,2.686 C237.979,6.718 219.841,81.354 205.282,138.454 C190.568,196.158 127.379,196.963 69.718,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/11.jpg" clip-path="url(#cp51)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/12.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp52">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M3.502,101.860 C-16.709,38.031 74.987,-1.392 142.018,0.651 C237.386,3.560 234.133,72.682 243.512,138.959 C259.179,249.674 171.903,244.723 104.995,240.168 C37.379,235.566 23.479,164.954 3.502,101.860 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/12.jpg" clip-path="url(#cp52)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/13.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="271px" height="283px">
+									 <defs>
+									 	<clipPath id="cp53">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+										 d="M135.000,7.000 C201.340,-25.800 259.911,67.554 269.000,141.000 C281.932,245.495 205.844,253.599 135.000,275.000 C16.656,310.750 7.326,214.735 1.000,141.000 C-5.393,66.484 69.425,39.423 135.000,7.000 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/13.jpg" clip-path="url(#cp53)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/14.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp58">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+												d="M242.498,101.860 C262.708,38.031 171.012,-1.392 103.982,0.651 C8.614,3.560 11.867,72.682 2.488,138.959 C-13.179,249.674 74.096,244.723 141.005,240.168 C208.621,235.566 222.521,164.954 242.498,101.860 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/14.jpg" clip-path="url(#cp58)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/15.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp59">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M147.282,204.213 C205.616,211.548 225.098,126.049 212.687,68.445 C195.029,-13.511 135.851,0.272 77.124,2.686 C-20.979,6.718 -2.841,81.354 11.718,138.454 C26.432,196.158 89.621,196.963 147.282,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/15.jpg" clip-path="url(#cp59)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/16.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="217px" height="205px">
+									 <defs>
+									 	<clipPath id="cp60">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M69.718,204.213 C11.384,211.548 -8.098,126.049 4.313,68.445 C21.971,-13.511 81.149,0.272 139.876,2.686 C237.979,6.718 219.841,81.354 205.282,138.454 C190.568,196.158 127.379,196.963 69.718,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/16.jpg" clip-path="url(#cp60)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/18.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="271px" height="283px">
+									 <defs>
+									 	<clipPath id="cp62">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+										 d="M135.000,7.000 C201.340,-25.800 259.911,67.554 269.000,141.000 C281.932,245.495 205.844,253.599 135.000,275.000 C16.656,310.750 7.326,214.735 1.000,141.000 C-5.393,66.484 69.425,39.423 135.000,7.000 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/18.jpg" clip-path="url(#cp62)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/19.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp63">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+												d="M242.498,101.860 C262.708,38.031 171.012,-1.392 103.982,0.651 C8.614,3.560 11.867,72.682 2.488,138.959 C-13.179,249.674 74.096,244.723 141.005,240.168 C208.621,235.566 222.521,164.954 242.498,101.860 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/19.jpg" clip-path="url(#cp63)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/20.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp64">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M147.282,204.213 C205.616,211.548 225.098,126.049 212.687,68.445 C195.029,-13.511 135.851,0.272 77.124,2.686 C-20.979,6.718 -2.841,81.354 11.718,138.454 C26.432,196.158 89.621,196.963 147.282,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/20.jpg" clip-path="url(#cp64)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/21.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="271px" height="283px">
+									 <defs>
+									 	<clipPath id="cp65">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+										 d="M135.000,7.000 C201.340,-25.800 259.911,67.554 269.000,141.000 C281.932,245.495 205.844,253.599 135.000,275.000 C16.656,310.750 7.326,214.735 1.000,141.000 C-5.393,66.484 69.425,39.423 135.000,7.000 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/21.jpg" clip-path="url(#cp65)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/23.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp67">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M147.282,204.213 C205.616,211.548 225.098,126.049 212.687,68.445 C195.029,-13.511 135.851,0.272 77.124,2.686 C-20.979,6.718 -2.841,81.354 11.718,138.454 C26.432,196.158 89.621,196.963 147.282,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/23.jpg" clip-path="url(#cp67)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/24.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="217px" height="205px">
+									 <defs>
+									 	<clipPath id="cp68">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M69.718,204.213 C11.384,211.548 -8.098,126.049 4.313,68.445 C21.971,-13.511 81.149,0.272 139.876,2.686 C237.979,6.718 219.841,81.354 205.282,138.454 C190.568,196.158 127.379,196.963 69.718,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/24.jpg" clip-path="url(#cp68)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/25.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp69">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M3.502,101.860 C-16.709,38.031 74.987,-1.392 142.018,0.651 C237.386,3.560 234.133,72.682 243.512,138.959 C259.179,249.674 171.903,244.723 104.995,240.168 C37.379,235.566 23.479,164.954 3.502,101.860 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/25.jpg" clip-path="url(#cp69)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/26.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="271px" height="283px">
+									 <defs>
+									 	<clipPath id="cp70">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+										 d="M135.000,7.000 C201.340,-25.800 259.911,67.554 269.000,141.000 C281.932,245.495 205.844,253.599 135.000,275.000 C16.656,310.750 7.326,214.735 1.000,141.000 C-5.393,66.484 69.425,39.423 135.000,7.000 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/26.jpg" clip-path="url(#cp70)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/27.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp71">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+												d="M242.498,101.860 C262.708,38.031 171.012,-1.392 103.982,0.651 C8.614,3.560 11.867,72.682 2.488,138.959 C-13.179,249.674 74.096,244.723 141.005,240.168 C208.621,235.566 222.521,164.954 242.498,101.860 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/27.jpg" clip-path="url(#cp71)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/28.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp72">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M147.282,204.213 C205.616,211.548 225.098,126.049 212.687,68.445 C195.029,-13.511 135.851,0.272 77.124,2.686 C-20.979,6.718 -2.841,81.354 11.718,138.454 C26.432,196.158 89.621,196.963 147.282,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/28.jpg" clip-path="url(#cp72)" preserveAspectRatio="none"/>
+								</svg>
+							</a>
+							<a href="img/slider/29.jpg" class="slide" data-fancybox = "1">
+								<svg 
+								 xmlns="http://www.w3.org/2000/svg"
+								 xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="246px" height="242px">
+									 <defs>
+									 	<clipPath id="cp73">
+											<path fill-rule="evenodd"  fill="rgb(232, 232, 232)"
+	 											d="M147.282,204.213 C205.616,211.548 225.098,126.049 212.687,68.445 C195.029,-13.511 135.851,0.272 77.124,2.686 C-20.979,6.718 -2.841,81.354 11.718,138.454 C26.432,196.158 89.621,196.963 147.282,204.213 Z"/>
+										 </clipPath>
+									</defs>
+									<image x="0" y="0" width="100%" height="100%" href="img/slider/29.jpg" clip-path="url(#cp73)" preserveAspectRatio="none"/>
 								</svg>
 							</a>
 						</div>
@@ -722,10 +977,16 @@
 									</div>
 									<p>Помывка, подготовка ко сну</p>
 								</div>
+								<div class="schedule_thumb last_thumb">
+									<div class="time_circle">
+										<p>22.30</p>
+									</div>
+									<p>Отбой</p>
+								</div>
 							</div>
 						</div>
 						<div class="schedule_button_wrapp">
-							<a href="#" class="yellow_pill">Оставить заявку</a>
+							<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">Оставить заявку</a>
 							<div class="schedule_thumb last">
 								<div class="time_circle">
 									<p>22.30</p>
@@ -747,7 +1008,7 @@
 						<img class="float_shape_5_2" src="img/float_images/float_shape_16_shadow.svg" alt="">
 						<img class="float_shape_5_1" src="img/float_images/float_shape_16.svg" alt="">
 					</div>
-					<div class="row">
+					<div class="row" id="prices">
 						<img class="moon" src="img/float_images/moon.svg" alt="">
 						<img class="planet_26" src="img/float_images/planet_15.svg" alt="">
 						<img class="planet_27" src="img/float_images/planet_04.svg" alt="">
@@ -769,7 +1030,7 @@
 								</div>
 								<div class="price_button_wrapp">
 									<p>Возможно предоставление рассрочки</p>
-									<a href="#" class="yellow_pill">Заказать путевку</a>
+									<a href="#" class="yellow_pill" data-toggle="modal" data-target="#enterModal1">Заказать путевку</a>
 								</div>
 							</div>
 							<div class="right_col">
@@ -801,7 +1062,7 @@
 						<img class="float_shape_7_2" src="img/float_images/float_shape_18_shadow.svg" alt="">
 						<img class="float_shape_7_1" src="img/float_images/float_shape_18.svg" alt="">
 					</div>
-					<div class="row">						
+					<div class="row" id="important">						
 						<div class="sect_box_title">
 							<h2>Полезная информация</h2>
 							<h3>Государственная компенсация</h3>
@@ -1139,7 +1400,7 @@
 												<i class="item_star"></i>
 											</div>
 											<div class="item_col_2">
-												<p>Недорогой кнопочный мобильный телефон и зарядное устройство к нему <span class="small">Договориться, что он будет храниться у вожатого. Звонки в определенное время.</span></p>
+												<p>Недорогой кнопочный мобильный телефон и зарядное устройство к нему <span class="small">Договориться, что он будет храниться у вожатого. Звонки в определенное время.</span></p>
 											</div>
 										</div>
 										<div class="item">
@@ -1244,7 +1505,7 @@
 					<img class="planet_31" src="img/float_images/planet_03.svg" alt="">
 					<img class="planet_32" src="img/float_images/planet_02.svg" alt="">
 					<img class="planet_33" src="img/float_images/planet_04.svg" alt="">				
-					<div class="row">
+					<div class="row" id="contacts">
 						<img class="float_shape float_shape_22" src="img/float_images/float_shape_22.svg" alt="">
 						<img class="float_shape float_shape_23" src="img/float_images/float_shape_23.svg" alt="">
 						<img class="float_shape float_shape_24" src="img/float_images/float_shape_24.svg" alt="">
@@ -1256,17 +1517,17 @@
 								<div class="form_wrapp">
 									<div class="col">
 										<div class="input_wrapp">
-											<input type="text" placeholder="Ваше имя" />
+											<input type="text" placeholder="Ваше имя" name="name" required />
 										</div>
 									</div>
 									<div class="col">
 										<div class="input_wrapp">
-											<input type="tel" placeholder="Ваш номер телефона" />
+											<input type="tel" placeholder="Ваш номер телефона" name="tel" required />
 										</div>
 									</div>
 									<div class="col">
 										<div class="input_wrapp">
-											<input type="email" placeholder="Ваш E-mail" />
+											<input type="email" placeholder="Ваш E-mail" name="email" required />
 										</div>
 									</div>
 								</div>
@@ -1285,23 +1546,73 @@
 		</div>
 	<!-- /Content -->
 
+	<!-- Popups -->
+
+	<div class="modal fade" id="enterModal1" tabindex="-1" role="dialog" aria-labelledby="enterModal1" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	        <div class="modal_inner">
+	        	<img class="planet_34" src="img/float_images/planet_03.svg" alt="">
+			 	<img class="planet_35" src="img/float_images/planet_02.svg" alt="">
+			 	<img class="planet_36" src="img/float_images/planet_19.svg" alt="">
+				<button type="button" data-dismiss="modal" aria-label="Close" class="close_btn"></button>
+				<div class="contacts_sect_title">
+					<h2>Заполните<br /> форму</h2>
+				</div>
+				<form class="popup_form">
+					<div class="input_wrapp">
+						<input type="text" placeholder="Ваше имя" name="name" required />
+					</div>
+					<div class="input_wrapp">
+						<input type="tel" placeholder="Ваш номер телефона" name="tel" required />
+					</div>
+					<div class="input_wrapp">
+						<input type="email" placeholder="Ваш E-mail" name="email" required />
+					</div>
+					<div class="form_text">
+						<p>Нажимая на кнопку «Отправить» вы даете согласие на обработку своих <a href="#">персональных данных</a></p>
+					</div>
+					<div class="submit_wrapp">
+						<input type="submit" class="yellow_pill" value="Отправить" />
+					</div>
+				</form>				
+			</div>
+			<!-- <div class="modal_inner">
+				<div class="succes_popup">
+				 	<img class="planet_37" src="img/float_images/planet_02.svg" alt="">
+				 	<img class="planet_38" src="img/float_images/planet_19.svg" alt="">
+					<button type="button" data-dismiss="modal" aria-label="Close" class="close_btn"></button>
+					<div class="contacts_sect_title">
+						<h2>Спасибо<br /> за заявку</h2>
+					</div>
+					<div class="popup_text">
+						<p>Наши менеджеры свяжутся с Вами, как только обработают Ваш запрос</p>
+					</div>
+				</div>
+			</div> -->
+	    </div>
+	  </div>
+	</div>
+
+	<!-- /Popups -->
+
 	<!-- Footer -->
 
 		<footer class="footer_section">
 			<div class="row">
 				<div class="footer_inner">
 					<div class="main_nav_wrapp">
-						<ul class="main_nav">			
-							<li><a href="#">О нас</a></li>
-							<li><a href="#">Цены и бронирование</a></li>
-							<li><a href="#" class="active">Важно</a></li>
-							<li><a href="#">Новости</a></li>
-							<li><a href="#">Контакты</a></li>
+						<ul class="main_nav footer_nav">			
+							<li><a href="#about">О нас</a></li>
+							<li><a href="#prices">Цены и бронирование</a></li>
+							<li><a href="#important">Важно</a></li>
+							<li><a href="#news">Новости</a></li>
+							<li><a href="#contacts">Контакты</a></li>
 						</ul>
 					</div>
 					<div class="footer_row">
 						<div class="left_col">
-							<div class="logo_wrapp">
+							<div class="logo_wrapp logo_wrapp_2">
 								<div class="col">
 									<img class="logo_text" src="img/logo_text.png" alt="" />
 								</div>
@@ -1373,6 +1684,7 @@
 	<script src="vendors/js/jquery.js"></script>
 	<script src="slick/slick.js"></script>
 	<script src="vendors/js/jquery.fancybox.js"></script>
+	<script src="vendors/js/bootstrap.min.js"></script>
 	<script src="vendors/js/telmask.js"></script>
 	<script src="js/scripts.js"></script>
 
