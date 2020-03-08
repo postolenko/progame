@@ -162,9 +162,11 @@ $(document).ready(function() {
         parentBlock.find("a").removeClass("active");
         $(this).addClass("active");
         $('html, body').stop().animate({
-            'scrollTop': visibleBlock.offset().top - 50
+            'scrollTop': visibleBlock.offset().top - 90
         }, 500);
-        $("#resp_nav").fadeOut(300);
+        $("#resp_nav").fadeOut(300, function() {
+          $(".respmenubtn").removeClass("active");
+        });
     });
 
 
