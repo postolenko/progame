@@ -12,10 +12,27 @@ $(document).ready(function() {
 
         $(".gallery").on('init', function() {
           $(".gallery .slide").each(function() {
-            dataPath = $(this).find("image").attr("data-image-path");
-            console.log(dataPath);
-            $(this).find("image").attr("href", dataPath);
+            if($(this).closest(".slick-slide").hasClass("slick-active")) {
+              dataPath = $(this).find("image").attr("data-image-path");
+              $(this).find("image").attr("href", dataPath);
+            }
           });
+        });
+
+        $(".gallery").on('init', function() {
+          $(".gallery .slide").each(function() {
+            if($(this).closest(".slick-slide").hasClass("slick-active")) {
+              dataPath = $(this).find("image").attr("data-image-path");
+              $(this).find("image").attr("href", dataPath);
+            }
+          });
+        });
+
+        $('.gallery').on('beforeChange', function(){
+          lastSlide = $(".gallery .slick-active").last();
+          var lastSlideNext = lastSlide.next(".slick-slide");
+          dataPath = lastSlideNext.find("image").attr("data-image-path");
+          lastSlideNext.find("image").attr("href", dataPath);
         });
 
         $(".gallery").not(".slick-initialized").slick({

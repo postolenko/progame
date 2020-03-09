@@ -994,6 +994,16 @@
 	    min-width: 240px;
 	}
 
+	.logo_text_resp {
+		display: none;
+	}
+
+	.tel_link.resp_tel {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 20px;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1128,20 +1138,28 @@
 	    padding-left: 0;
 	}
 
-	.logo_img_wrapp {
-		display: none;
+	.logo_resp {
+		display: block;
+	}
+
+	.contacts_resp .callback_btn {
+	    width: 108px;
 	}
 
 	.callback_btn:after {
 		display: none;
 	}
 
+	.header_site .callback_btn .call {
+		left: 50px;
+	}
+
 	.header_row .left_col {
-	    width: calc(100% - 91px);
+	    width: calc(100% - 80px);
 	}
 
 	.header_row .right_col {
-		width: 90px;
+	    width: 80px;
 	    padding-right: 0;
 	}
 
@@ -1151,7 +1169,12 @@
 	}
 
 	.header_site .logo_wrapp .col:nth-child(1) {
-	    padding-left: 0;
+	    padding-left: 85px;
+	}
+
+	.tel_link.resp_tel {
+	    margin-top: 15px;
+	    font-size: 17px;
 	}
 
 	/*-- /Header --*/
@@ -1265,6 +1288,10 @@
 	    padding-left: 0;
 	}
 
+	.logo_img_wrapp_2 {
+		display: none;
+	}
+
 	.mail_link_wrapp {
 	    text-align: center;
 	    padding-right: 0;
@@ -1278,6 +1305,24 @@
 	    min-width: 246px;
 	}
 	
+}
+
+@media only screen and (max-width: 400px) {
+
+	.header_site .logo_wrapp .col:nth-child(1) {
+	    padding-left: 34px;
+	}
+
+	.header_site .logo {
+	    width: 60px;
+	    top: 153px;
+	    left: -11px;
+	}
+
+	.tel_link.resp_tel {
+	    font-size: 14px;
+	}
+
 }
 
 @media only screen and (min-width: 768px) {
