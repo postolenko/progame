@@ -1,3 +1,5 @@
+var dataPath;
+
 $(window).on('load', function() {
   $("body").removeClass("fixed");
 });
@@ -7,8 +9,6 @@ $(document).ready(function() {
     $("body").addClass("fixed");
 
     if( $(".gallery").length > 0 ) {
-
-      var dataPath;
 
         $(".gallery").on('init', function() {
           $(".gallery .slide").each(function() {
