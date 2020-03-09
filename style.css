@@ -1435,13 +1435,13 @@ section > .row {
     position: absolute;
     height: auto;
     opacity: 1;
-/*    -webkit-animation: star 1.5s infinite linear;
+    -webkit-animation: star 1.5s infinite linear;
     -moz-animation:    star 1.5s infinite linear;
     -o-animation:      star 1.5s infinite linear;
-    animation:         star 1.5s infinite linear;*/
+    animation:         star 1.5s infinite linear;
 }
 
-/*@keyframes star {
+@keyframes star {
     0% {
         opacity: 1;
     }
@@ -1475,7 +1475,7 @@ section > .row {
     100% {
         opacity: 1;
     }
-}*/
+}
 
 .float_star_1 {
     width: 45px;
@@ -1544,12 +1544,12 @@ section > .row {
     position: absolute;
     top: 195px;
     left: -107px;
-/*    -webkit-animation: planet_7_2 6s infinite linear;
+    -webkit-animation: planet_7_2 6s infinite linear;
     -moz-animation:    planet_7_2 6s infinite linear;
     -o-animation:      planet_7_2 6s infinite linear;
-    animation:         planet_7_2 6s infinite linear;*/
+    animation:         planet_7_2 6s infinite linear;
 }
-/*
+
 @keyframes planet_7_2 {
     0% {
         transform: rotate(0);
@@ -1575,7 +1575,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .planet_8 {
     width: 270px;
@@ -1632,10 +1632,10 @@ section > .row {
     position: absolute;
     height: auto;
     opacity: 1;
-/*    -webkit-animation: star 1.5s infinite linear;
+    -webkit-animation: star 1.5s infinite linear;
     -moz-animation:    star 1.5s infinite linear;
     -o-animation:      star 1.5s infinite linear;
-    animation:         star 1.5s infinite linear;*/
+    animation:         star 1.5s infinite linear;
 }
 
 .float_star_6 {
@@ -1942,13 +1942,13 @@ section > .row {
     position: absolute;
     bottom: 113px;
     left: 61%;
-/*    -webkit-animation: planet_12 9s infinite linear;
+    -webkit-animation: planet_12 9s infinite linear;
     -moz-animation:    planet_12 9s infinite linear;
     -o-animation:      planet_12 9s infinite linear;
-    animation:         planet_12 9s infinite linear;*/
+    animation:         planet_12 9s infinite linear;
 }
 
-/*@keyframes planet_12 {
+@keyframes planet_12 {
     0% {
         transform: rotate(0);
     }
@@ -1973,7 +1973,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .float_shape_4 {
     width: 154px;
@@ -2172,13 +2172,13 @@ section > .row {
     position: absolute;
     top: 329px;
     left: 2%;
-/*    -webkit-animation: planet_13 9s infinite linear;
+    -webkit-animation: planet_13 9s infinite linear;
     -moz-animation:    planet_13 9s infinite linear;
     -o-animation:      planet_13 9s infinite linear;
-    animation:         planet_13 9s infinite linear;*/
+    animation:         planet_13 9s infinite linear;
 }
 
-/*@keyframes planet_13 {
+@keyframes planet_13 {
     0% {
         transform: rotate(0);
     }
@@ -2203,7 +2203,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .planet_14 {
     width: 120px;
@@ -2211,13 +2211,13 @@ section > .row {
     position: absolute;
     bottom: 88px;
     right: 16%;
-/*    -webkit-animation: planet_14 9s infinite linear;
+    -webkit-animation: planet_14 9s infinite linear;
     -moz-animation:    planet_14 9s infinite linear;
     -o-animation:      planet_14 9s infinite linear;
-    animation:         planet_14 9s infinite linear;*/
+    animation:         planet_14 9s infinite linear;
 }
 
-/*@keyframes planet_14 {
+@keyframes planet_14 {
     0% {
         transform: rotate(0);
     }
@@ -2242,7 +2242,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .float_shape_2 {
     width: 375px;
@@ -2804,13 +2804,13 @@ section > .row {
     position: absolute;
     bottom: 558px;
     left: 7%;
-/*    -webkit-animation: planet22 15s infinite linear;
+    -webkit-animation: planet22 15s infinite linear;
     -moz-animation:    planet22 15s infinite linear;
     -o-animation:      planet22 15s infinite linear;
-    animation:         planet22 15s infinite linear;*/
+    animation:         planet22 15s infinite linear;
 }
 
-/*@keyframes planet22 {
+@keyframes planet22 {
     0% {
         transform: rotate(0);
     }
@@ -2835,7 +2835,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .figure_01_wrapp {
     position: absolute;
@@ -3611,12 +3611,12 @@ section > .row {
     position: absolute;
     top: -41px;
     right: 10%;
-/*    -webkit-animation: planet26 10s infinite linear;
+    -webkit-animation: planet26 10s infinite linear;
     -moz-animation:    planet26 10s infinite linear;
     -o-animation:      planet26 10s infinite linear;
-    animation:         planet26 10s infinite linear;*/
+    animation:         planet26 10s infinite linear;
 }
-/*
+
 @keyframes planet26 {
     0% {
         transform: rotate(0);
@@ -3642,7 +3642,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .planet_27 {
     width: 190px;
@@ -3689,13 +3689,13 @@ section > .row {
     position: absolute;
     bottom: -114px;
     left: 36%;
-/*    -webkit-animation: planet28 10s infinite linear;
+    -webkit-animation: planet28 10s infinite linear;
     -moz-animation:    planet28 10s infinite linear;
     -o-animation:      planet28 10s infinite linear;
-    animation:         planet28 10s infinite linear;*/
+    animation:         planet28 10s infinite linear;
 }
 
-/*@keyframes planet28 {
+@keyframes planet28 {
     0% {
         transform: rotate(0);
     }
@@ -3720,7 +3720,7 @@ section > .row {
     100% {
         transform: rotate(360deg);
     }
-}*/
+}
 
 .planet_29 {
     width: 376px;
